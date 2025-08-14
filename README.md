@@ -1,23 +1,13 @@
 fun main () {
-    println("Hello world")
-    // Hello world
-   
-        val pipoca = 5 // Existem 5 pacotes de pipoca 
-        val hotdog = 7 // Existem 7 cachorros-quente 
-        var clientes = 10 // Existem 10 clientes na fila 
-        
-        // mudou: alguns clientes desistiram  da fila 
-        clientes =  8
-        println(clientes)
-        
-
-val customers = 10
-println ("existem $customers clientes")
-//vai separar o nome da variavel do conteudo da variavel 
-
-// vamos aumentar a fila,
-println("agora são ${customers +1} clientes")
-// There are 11 customrs
+ 
+    var clientes = 10
+    
+    //E se dois clientes deixarem a fila?
+    clientes = clientes - 2
+    println("Com a saida: $clientes clientes")
+    // Agora chegaram mais. Quantos clientes temos na fila?
+    clientes = clientes + 3 
+    println("Com a chegada de 3: $clientes clientes")
+    
 }
-
 
