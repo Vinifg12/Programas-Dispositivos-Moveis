@@ -1,0 +1,9 @@
+fun main() {
+    val frutas = listOf("maçã", "Banana", "Laranja", "Manga ")
+    println(frutas[0])
+    println(frutas[2])
+    
+    println(frutas.size)
+    
+    println(frutas.contains("Banana"))
+}
