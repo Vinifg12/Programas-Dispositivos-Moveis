@@ -1,0 +1,13 @@
+fun main() {
+    
+    val apenasLeituraFrutas = setOf("abacate", "banana", "cereja", "cereja")
+    
+    println("Este conjunto tem ${apenasLeituraFrutas.count()} items")
+    
+    val frutas: MutableSet<String> = mutableSetOf("Manga", "laranja", "tangerinas",  "uva", "uva")
+    
+    frutas.remove("uva")
+    println(frutas)
+    println("Este conjuto tem ${frutas.count()} items")
+    
+}
