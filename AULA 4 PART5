@@ -1,0 +1,13 @@
+class Contatos(val id: Int, var email: String)
+
+fun main() {
+    val contato = Contatos(1, "mary@gmail.com")
+    
+    println(contato.email)
+    
+    contato.email = "jane@gmail.com"
+    
+     println(contato.email)
+    
+    
+}
