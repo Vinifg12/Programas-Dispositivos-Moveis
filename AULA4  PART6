@@ -1,0 +1,18 @@
+data class Usuarios(val nome: String, val id: Int)
+
+fun main() {
+    
+   val usuario  = Usuarios("Alex", 1)
+   val usuario2 = Usuarios("Max", 2)
+   
+   println(usuario.toString())
+   
+   println("Comparação  se o  primeiro e o segundo usuario são iguais: ${usuario == usuario2}")
+
+	println("Cria copia exata: ${usuario2.copy()}")
+ 
+ 	println("Cria copia com modificação: ${usuario2.copy("Paulo", id = 3)}")
+} 
+    
+    
+ 
